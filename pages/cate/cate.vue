@@ -29,7 +29,9 @@
 </template>
 
 <script>
+	import cartNum from '@/mixins/cartNum.js'
 	export default {
+		mixins:[cartNum],
 		data() {
 			return {
 				//当前屏幕可用高度，用来设置滚动条高度

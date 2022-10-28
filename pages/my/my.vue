@@ -5,7 +5,9 @@
 </template>
 
 <script>
+	import cartNum from '@/mixins/cartNum.js'
 	export default {
+		mixins:[cartNum],
 		data() {
 			return {
 				
