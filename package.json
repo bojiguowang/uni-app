@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.22",
     "@escook/request-miniprogram": "^0.2.1"
   },
   "name": "uni-app",
   "version": "1.0.0",
   "main": "main.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
