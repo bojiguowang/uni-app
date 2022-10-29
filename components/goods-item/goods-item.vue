@@ -60,6 +60,7 @@
 		},
 		methods: {
 			handleChange(e) {
+				console.log(e , 'e')
 				// 触发自定义函数,修改复选框的值时的回调
 				this.$emit('radioChange', {
 					goods_id: this.goods.goods_id,
